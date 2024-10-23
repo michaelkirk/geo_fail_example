@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 # geo = { path = "../../../geo/geo", features = ["use-serde"] }
 geo = { git = "https://github.com/georust/geo", branch = "mkirk/i-overlay", features = ["use-serde"] }
+geojson = "0.24.1"
 serde_json = "1.0.132"
