@@ -97,6 +97,7 @@ checksum = "8bf7cc16383c4b8d58b9905a8509f02926ce3058053c056376248d958c9df1e8"
 [[package]]
 name = "geo"
 version = "0.28.0"
+source = "git+https://github.com/georust/geo?branch=mkirk/i-overlay#167fd473aca67328012f0c9548e7caaf798425d5"
 dependencies = [
  "earcutr",
  "float_next_after",
