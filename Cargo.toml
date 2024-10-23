@@ -1,0 +1,8 @@
+[package]
+name = "geo_fail"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+geo = { path = "../geo/geo", features = ["use-serde"] }
+serde_json = "1.0.132"
